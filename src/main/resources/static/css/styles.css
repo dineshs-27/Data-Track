@@ -1,0 +1,103 @@
+/* Resetting default browser styles */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f5f5f5;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+
+ .navbar {
+     background-color: #333;
+     color: #fff;
+     padding: 10px 0;
+     position: relative;
+ }
+
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ .logo {
+     font-size: 24px;
+     display: inline-box;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 20px;
+ }
+
+ .new-student-btn {
+     background-color: #4caf50;
+     color: #fff;
+     padding: 8px 16px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 20px;
+ }
+
+ .table-title {
+     margin-top: 25px;
+     margin-bottom: 10px;
+     font-size: 20px;
+ }
+
+ .student-table {
+     width: 100%;
+     max-width: 800px;
+     border-collapse: collapse;
+ }
+
+ .student-table th,
+ .student-table td {
+     padding: 15px;
+     text-align: left;
+     border-bottom: 1px solid #ddd;
+     width: auto;
+ }
+
+ .student-table th {
+     background-color: #f2f2f2;
+ }
+
+ .student-table td button {
+     padding: 6px 10px;
+     margin-right: 5px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .edit-btn {
+     background-color: #4caf50;
+     color: #fff;
+ }
+
+ .delete-btn {
+     background-color: #f44336;
+     color: #fff;
+ }
+
+ form {
+     display: inline;
+ }
+
+ .footer {
+     text-align: center;
+     padding: 10px 0;
+     background-color: #333;
+     color: #fff;
+     margin-top: auto;
+ }
